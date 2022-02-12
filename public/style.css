@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.tools-content{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tools{
+    background: aliceblue;
+    height: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+}
+.tool{
+    height: 80%;
+    width: 10%;
+}
+.tool img {
+    height: 100%;
+    width: 100%;
+    transition: transform 0.5s;
+}
+.tool img:hover{
+    transform: scale(1.1);
+}
+.canvas-content{
+
+    overflow: hidden;
+}
+#canvas{
+
+}
+.tool-Options-pencil{
+    position: absolute;
+    border: 2px solid;
+    height: 100px;
+    width: 80px;
+    border-radius: 10px;
+    top: 60px;
+    left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.pencil-Size {
+    top: 5px;
+
+}
+.pencil-Size input{
+    width: 100%;
+
+}
+.pencil-colour{
+
+display: flex;
+
+justify-content: space-around;
+}
+.red{
+height: 15px;
+width: 15px;
+background-color: red;
+border-radius: 50px;
+}
+.blue{
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    border-radius: 50px;
+}
+.black{
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50px;
+}
+.yellow{
+    height: 15px;
+    width: 15px;
+    background-color: yellow;
+    border-radius: 50px;
+}
+.eraser-size{
+
+
+}
+.tool-Options-eraser{
+    position: absolute;
+    border: 2px solid;
+    height: 100px;
+    width: 80px;
+    border-radius: 10px;
+    top: 60px;
+    left: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.eraser-Size input{
+    width: 100%;
+
+}
+.hide{
+    display: none;
+}
+.sticky{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 150px;
+    width: 190px;
+    /* border: 2px solid black; */
+}
+.header{
+    height: 15%;
+    background: cadetblue;
+    display: flex;
+    /* display: flex; */
+    justify-content: flex-end;
+    align-items: center;
+}
+.header div{
+    height: 50%;
+    width: 8%;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.minimize{
+background-color: violet;
+}
+.delete{
+background-color: red;
+}
+.sticky-content{
+    height: 85%;
+}
+textarea{
+
+ height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: 1px solid lightgray; 
+}
+.image-upload{
+    height: 100%;
+    width: 100%;
+}
